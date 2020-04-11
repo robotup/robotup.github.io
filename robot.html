@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8">
+  <title>robotup team</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="css/videobg.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+        <header >
+
+            <div class="robotup-nav text-center py-1 mokaka-header">
+
+                    robotup team
+
+            </div>
+            <!-- End most top info -->
+
+            <div class="scrollmenu" data-toggle="sticky-onscroll">
+                <a href="blog.html">Блог</a>
+                <a href="team.html">Команда</a>
+                <a href="robot.html" id="menu-active"> > Робот > </a>
+                <a href="station.html">Станция</a>
+                <a href="soft.html">Software</a>
+                <a href="contact.html">Контакты</a>
+              </div>
+
+        </header>
+
+<!--  ----------------------------------------------------------------------------------------------  -->
+
+  
+  <header class="header-kek"> 
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="media/robot_background.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <img class="img-fluid" src="media/robotup.svg" alt="robotup">
+          <p class="mokaka-desc">Универсальный робот удаленного присутствия для помощи человеку</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  
+
+  <div class="text-center p-5 robotup-heading">
+    <h1>Скоро здесь все заработает,</h1>
+    <br>
+    <h4>мы уже заканчиваем верстать robotup.github.io!</h4>
+  </div>
+
+
+
+  <img src="media/robot_fl2.jpg" loading="eager" class="img-fluid" alt="Responsive image">
+
+          <footer class="page-footer font-small white" id="robotup-footer">
+            <div class="footer-copyright text-center py-3">
+              
+                Задизайнил <span class="text-muted robotup-caption" style="font-size: 80%;">@rodinf</span>. Robotup team, 2020
+
+            </div>          
+          </footer>
+          
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+<script>
+    var el = document.getElementById("menu-active");
+    el.scrollIntoView({block: "center", behavior: "smooth", inline: "center"});    
+</script>
+
+<style>
+.robotup-nav {
+  background: rgb(0,126,196);
+  background: linear-gradient(90deg, rgba(0,126,196,1) 0%, rgba(0,121,205,1) 0%, rgba(33,45,204,1) 34%, rgba(135,0,212,1) 100%, rgba(175,55,0,1) 100%, rgba(86,19,219,1) 100%);
+}
+</style>
+
+</body>
+</html>

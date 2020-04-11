@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8">
+  <title>robotup team</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+
+<!--  ----------------------------------------------------------------------------------------------  -->
+
+<body class="text-center" id="ooshka-click">
+
+            <div class="col-md-auto mx-auto">
+            <div class="container">
+        
+                <div class="text-center p-5 robotup-heading">
+
+                    <h1 id="ooshka">o_O</h1>
+                        <br>
+                    <h2>Здесь пока ничего нет</h2>              
+                    <h6>но возможно, скоро появится</h6>
+                        <br>
+                    <h6 class="text-muted robotup-caption">404 Not Found</h6>
+
+                </div>
+
+            </div>
+            </div>
+
+            <div class="robotup-nav text-center pb-3 mokaka-header">
+
+                robotup team
+
+            </div>
+
+            <div class="links-404 py-3">
+                <a href="blog.html">Главная</a>
+                <a href="team.html">Команда</a>
+                <a href="robot.html">Робот</a>
+                <a href="station.html" id="menu-active">Станция</a>
+                <a href="soft.html">Software</a>
+                <a href="contact.html">Контакты</a>
+            </div>
+
+</body>
+
+
+<!--
+          <footer class="fixed-bottom" class="page-footer font-small white" id="robotup-footer">
+            <div class="footer-copyright text-center py-3">
+              
+                Задизайнил <span class="text-muted robotup-caption" style="font-size: 80%;">@rodinf</span>. Robotup team, 2020
+
+            </div>          
+          </footer>
+          
+        -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+<script>
+
+    document.getElementById("ooshka-click").onmouseover = function() {mouseOver()};
+    document.getElementById("ooshka-click").onmouseout = function() {mouseOut()};
+
+    function mouseOver() {
+        document.getElementById("ooshka").innerHTML = "O_o";
+    }
+    function mouseOut() {
+        document.getElementById("ooshka").innerHTML = "o_O";
+    }
+
+
+</script>
+
+
+
+<style>
+
+body {
+    min-height: auto;
+}
+
+.robotup-nav {
+    background: white;
+    color: black;
+}
+
+
+
+</style>
+
+</body>
+</html>
