@@ -1,0 +1,82 @@
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+body {
+  min-height: 1200px;
+}
+
+.robotup-nav {
+  height: 3rem;
+  min-height: 40px;
+  /*
+  background: rgb(23,30,136);
+  background: linear-gradient(90deg, rgba(23,30,136,1) 0%, rgba(45,19,219,1) 21%, rgba(239,0,255,1) 100%);
+  
+  background: rgb(196,0,113);
+  background: linear-gradient(90deg, rgba(196,0,113,1) 0%, rgba(175,55,0,1) 100%, rgba(255,0,0,1) 100%, rgba(219,19,19,1) 100%);
+  */
+
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  
+}
+
+/*----------------------*/
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  width: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+div.scrollmenu a {  
+  display: inline-block;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  width: 20%;
+  min-width: 130px;
+  color: white;
+  background-color: black;
+}
+
+div.scrollmenu a:hover {
+  background-color: #222;
+  color: white;
+}
+
+
+.robotup-authors {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 90%;
+}
+
+.robotup-caption {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#robotup-footer {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+
+.card-deck .card {
+  margin-bottom: 15px;
+}
+
+.links-404 a {
+  padding: 0.5rem;
+  font-size: large;
+}
