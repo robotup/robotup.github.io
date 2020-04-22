@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>robotup team</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
   
@@ -24,12 +24,12 @@
             <!-- End most top info -->
 
             <div class="scrollmenu" data-toggle="sticky-onscroll">
-                <a href="blog.html">Блог</a>
-                <a href="team.html">Команда</a>
-                <a href="robot.html">Робот</a>
-                <a href="station.html">Станция</a>
-                <a href="soft.html">Software</a>
-                <a href="contact.html" id="menu-active"> > Контакты > </a>
+                <a href="/blog">Блог</a>
+                <a href="/team">Команда</a>
+                <a href="/robot">Робот</a>
+                <a href="/station">Станция</a>
+                <a href="/soft">Software</a>
+                <a href="/contact" id="menu-active"> > Контакты > </a>
               </div>
 
         </header>
@@ -47,12 +47,7 @@
                     <h1>Как с нами связаться</h1>
                 </div>
 
-                <div class="text-center">
-                  <p>
-                    По всем вопросам писать на 
-                    <span class="text-muted robotup-caption">robotup@gmail.com</span>
-                  </p>
-                </div>
+                
 
             </div>
             </div>
@@ -60,8 +55,31 @@
 
 
 
+        <div class="container">
+          <div class="row align-items-start">
+
+            <div class="col">
+              
+              <div class="text-center">
+                <p>
+                  По всем вопросам:
+                  <br><br>
+                  
+                  <b>e-mail:</b> <a class="text-muted robotup-caption" href="mailto:robotupteam@gmail.com">robotupteam@gmail.com</a>
+                </p>
+              </div>
+
+            </div>
+            <div class="col">
+              <img class="img-fluid mx-auto" src="/media/telephone2-min.png">
+            </div>
+
+            
+          </div>
+        </div>
 
 
+          <!--
           <footer class="page-footer font-small white" id="robotup-footer">
             <div class="footer-copyright text-center py-3">
               
@@ -69,7 +87,7 @@
 
             </div>          
           </footer>
-          
+        -->
 
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
@@ -85,6 +103,14 @@
     var el = document.getElementById("menu-active");
     el.scrollIntoView({block: "center", behavior: "smooth", inline: "center"});    
 </script>
+
+<style>
+.robotup-nav{
+  background: rgb(196,0,113);
+  background: linear-gradient(90deg, rgba(196,0,113,1) 0%, rgba(175,55,0,1) 100%, rgba(255,0,0,1) 100%, rgba(219,19,19,1) 100%);
+}
+</style>
+  
 
 </body>
 </html>
