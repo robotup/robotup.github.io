@@ -38,7 +38,7 @@
             <!-- End most top info -->
             <div data-toggle="sticky-onscroll" style="background-color: black;">
 
-            <div class="scrollmenu" style="max-width: 1500px; margin: auto;">
+              <div class="scrollmenu" style="max-width: 1500px; margin: auto;">
                 <a href="/home">#/home/</a>
                 <a href="/team">/team/</a>
                 <a href="/dev">/dev/</a>
@@ -55,54 +55,24 @@
 <!--  ----------------------------------------------------------------------------------------------  -->
 
   
-<header class="header-kek"> 
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="/media/robot_background.mp4" type="video/mp4">
-  </video>
 
-
-    <div class="container robotup-container text-white align-items-center" style="margin-left: 5%; top: 15%; line-height: normal;">
-        <!--<img class="img-fluid" src="/media/robotup.svg" alt="robotup">-->
-        <p class="robotup-desc-huge my-5 py-5">
           
-          <span style="background-color: #fff; color: black; padding-left: 20px; padding-right: 20px; font-weight: bold;"> Робот </span> <br> удаленного<br> присутствия</p>
 
-          <span class="proj-links">
-            <a href="/robot" class="active">Описание</a> 
-            <a href="making-of/">Мэйкинг оф</a>
-            <a href="conf/">Конференции</a>
-          </span>
+  
+  
 
-          <div class="robotup-authors-col py-5">
-
-            <h5>Авторы: &nbsp 
-      
-              <span class="robotup-authors">
-                
-                <a href="/team/#fedor">Родин Федор</a>, 
-                <a href="/team/#igor">Малыш Игорь,</a>
-                <a href="/team/#ivan">Коновалов Иван</a>
-                
-              </span>
-            
-            </h5>
-            
-            <h5>Научрук: &nbsp <span class="robotup-authors">
-              <a href="/team/#andrey">Андрей Мухачев</a>
-            </span></h5> 
-
-            </div>
-
-        </p>
+  <div class="text-center py-5">
+    <div class="robotup-heading robotup-caption">
+      <h1><b>Робот удаленного присутствия</b></h1>
     </div>
+    <br>
 
-  
-</header>
-  
-  
-
-  <div class="container py-5">
+    <div class="proj-links">
+      <a href="../">Описание</a> 
+      <a href="making-of/" class="active">Мэйкинг оф</a>
+      <a href="../conf/">Конференции</a>
+    </div>
+    
 
     
   </div>
@@ -111,12 +81,7 @@
 
     <p style="font-size: 150%;">
       
-      Вебсайт еще доделывается, keep calm =)
-
-      <br>
-
-      А пока мы готовимся к ЕГЭ
-      
+      Скоро здесь будет опубликован процесс создания
 
     </p>
   </div>
@@ -125,8 +90,8 @@
 
 
 
-  <!--<img src="/media/robot_fl2.jpg" loading="eager" class="img-fluid" alt="Responsive image">-->
-
+  <img src="/media/robot_fl2.jpg" loading="eager" class="img-fluid" alt="Responsive image">
+<!--
           <footer class="page-footer font-small white" id="robotup-footer">
             <div class="footer-copyright text-center py-3">
               
@@ -135,7 +100,7 @@
             </div>          
           </footer>
           
-
+        -->
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
@@ -172,7 +137,7 @@ background: linear-gradient(90deg, rgba(155, 0, 0, 1) 0%, rgba(0,146,193,1) 0%, 
 }
 
 .proj-links a {
-  color: white;
+  color: black;
   /*text-decoration: none;*/
   padding-right: 10px;
   padding-left: 10px;
@@ -182,32 +147,11 @@ background: linear-gradient(90deg, rgba(155, 0, 0, 1) 0%, rgba(0,146,193,1) 0%, 
 
 .proj-links a.active {
   pointer-events: none;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border: 0px solid;
   border-radius: 5px;
-  margin: 5px;
-  line-height: 2;
 }
-
-.robotup-authors {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 90%;
-}
-
-.robotup-authors a {
-  color: white;
-  text-decoration: underline;
-}
-
-.robotup-authors a:hover {
-  color: #00aaff;
-}
-
-.robotup-authors-col {
-  margin: 10px;
-}
-
 </style>
 
 </body>

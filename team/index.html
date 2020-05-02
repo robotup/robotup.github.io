@@ -3,7 +3,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>robotup team</title>
+  <title>Команда</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
   <link rel="stylesheet" href="/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,25 +11,40 @@
   
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149447353-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149447353-2');
+  </script>
+
 </head>
 <body>
 
-        <header >
+       <header>
 
             <div class="robotup-nav text-center py-1 mokaka-header">
 
+              <img style="width: 55px;" src="/media/bobot.png" alt="">
                     robotup team
 
             </div>
             <!-- End most top info -->
+            <div data-toggle="sticky-onscroll" style="background-color: black;">
 
-            <div class="scrollmenu" data-toggle="sticky-onscroll">
-                <a href="/blog">Блог</a>
-                <a href="/team" id="menu-active"> > Команда > </a>
-                <a href="/robot">Робот</a>
-                <a href="/station">Станция</a>
-                <a href="/soft">Software</a>
-                <a href="/contact">Контакты</a>
+              <div class="scrollmenu" style="max-width: 1500px; margin: auto;">
+                <a href="/home">#/home/</a>
+                <a href="/team">/team/</a>
+                <a href="/dev">/dev/</a>
+                <a href="/robot" id="menu-active"> /robot/</a>
+                <a href="/charger">/charger/</a>
+                <a href="/software">/software/</a>
+                <a href="/contact">/contact/</a>
+            </div>
+
             </div>
 
         </header>
@@ -60,7 +75,7 @@
                       <img class="card-img-top" src="/media/myxa.jpg" alt="">
                       <div class="card-body">
                         <h5 class="card-title">Андрей Мухачев</h5>
-                        <p class="card-text">научрук</p>
+                        <p class="card-text">Насяльника</p>
                       </div>
                     </div>
                   </div>
@@ -170,7 +185,7 @@
           <footer class="page-footer font-small white" id="robotup-footer">
             <div class="footer-copyright text-center py-3">
               
-                Задизайнил <span class="text-muted robotup-caption" style="font-size: 80%;">@rodinf</span>. Robotup team, 2020
+                <!-- Задизайнил <span class="text-muted robotup-caption" style="font-size: 80%;">@rodinf</span>. --> Robotup team, 2020
 
             </div>          
           </footer>
@@ -191,8 +206,17 @@
   background: rgb(196,0,113);
   background: linear-gradient(90deg, rgba(196,0,113,1) 0%, rgba(175,55,0,1) 100%, rgba(255,0,0,1) 100%, rgba(219,19,19,1) 100%);
 }
-</style>
-
+  
+  .robotup-color-footer {
+    background: rgb(187,0,0);
+    background: linear-gradient(90deg, rgba(187,0,0,1) 0%, rgba(0,93,135,1) 0%, rgba(0,146,193,1) 0%, rgba(19,0,194,1) 50%, rgba(169,0,198,1) 100%, rgba(204,215,0,1) 100%);
+    min-height: 1rem;
+  }
+  
+  #menu-active {
+    background-color: #222;
+  }
+  </style>
 
 </body>
 </html>

@@ -57,18 +57,19 @@ div.scrollmenu a:hover {
 }
 
 
-.robotup-authors {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 90%;
-}
+
 
 .robotup-caption {
   font-family: 'Roboto Mono', monospace;
 }
 
-#robotup-footer {
+.robotup-footer {
   margin-top: 5rem;
   margin-bottom: 1rem;
+  background-color: black;
+  color: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 
@@ -79,4 +80,8 @@ div.scrollmenu a:hover {
 .links-404 a {
   padding: 0.5rem;
   font-size: large;
+}
+
+.scrollmenu-active {
+  background-color: #222;
 }

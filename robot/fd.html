@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8">
+  <title>robotup team</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/videobg.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+        <header>
+
+            <div class="robotup-nav text-center py-1 mokaka-header">
+
+              <img style="width: 55px;" src="/media/bobot.png" alt="">
+                    robotup team
+
+            </div>
+            <!-- End most top info -->
+
+          <div class="blackbox" data-toggle="sticky-onscroll" style="background-color: black;">
+            <div class="scrollmenu" style="max-width: 1500px; margin: auto; padding: inherit;">
+                <a href="/home">#/home/</a>
+                <a href="/team">/team/</a>
+                <a href="/dev">/dev/</a>
+                <a href="/robot" id="menu-active"> /robot/</a>
+                <a href="/station">/station/</a>
+                <a href="/software">/software/</a>
+                <a href="/contact">/contact/</a>
+              </div>
+          </div>
+        </header>
+
+<!--  ----------------------------------------------------------------------------------------------  -->
+
+  
+  <header class="header-kek"> 
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="/media/robot_background.mp4" type="video/mp4">
+    </video>
+
+
+      <div class="container robotup-container text-white align-items-center" style="margin-left: 5%; top: 20%; bottom:30%;">
+          <!--<img class="img-fluid" src="/media/robotup.svg" alt="robotup">-->
+          <p class="robotup-desc-huge my-5 py-5">
+            
+            <span style="background-color: #fff; color: black; padding-left: 20px; padding-right: 20px;"><b></b> Робот </b></span><br> удаленного<br> присутствия</p>
+
+            <span class="proj-links">
+              <a href="#" class="active">Описание</a> 
+              <a href="makingof/">Мэйкинг оф</a>
+              <a href="conf/">Конференции</a>
+            </span>
+            
+      </div>
+
+    
+  </header>
+  
+  
+
+  <div class="text-center py-5 container">
+    <div class="robotup-heading robotup-caption">
+      <h1><b>Робот удаленного присутствия</b></h1>
+    </div>
+    <br>
+    
+    <h5>Авторы: &nbsp 
+    
+    <span class="robotup-authors">
+      
+      <a href="/team/#fedor">Родин Федор</a>, 
+      <a href="/team/#igor">Малыш Игорь</a>,
+      <a href="/team/#ivan">Коновалов Иван</a>
+      
+    </span>
+  
+    </h5> 
+
+
+    <h5>Научрук: &nbsp <span class="robotup-authors">
+      <a href="/team/#andrey">Андрей Мухачев</a>
+    </span></h5> 
+
+    
+  </div>
+
+  <div class="container py-5 text-center">
+
+    <p style="font-size: 150%;">
+      
+      Вебсайт еще доделывается, keep calm =)
+
+    </p>
+  </div>
+
+  
+
+
+
+  <img src="/media/robot_fl2.jpg" loading="eager" class="img-fluid" alt="Responsive image">
+
+  
+  <footer class="footer text-center py-3 robotup-footer">                     
+    Задизайнил <span class="text-muted robotup-caption" style="font-size: 90%;">@rodinf</span>. Robotup team, 2020
+  </footer>
+          
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+<script  src="/script.js"></script>
+
+<script>
+    var el = document.getElementById("menu-active");
+    el.scrollIntoView({block: "center", behavior: "smooth", inline: "center"});    
+</script>
+
+<style>
+.robotup-nav {
+  background: rgb(187,0,0);
+  background: linear-gradient(90deg, rgba(187,0,0,1) 0%, rgba(0,93,135,1) 0%, rgba(0,146,193,1) 0%, rgba(19,0,194,1) 50%, rgba(169,0,198,1) 100%, rgba(204,215,0,1) 100%);
+}
+
+.robotup-color-footer {
+  background: rgb(187,0,0);
+  background: linear-gradient(90deg, rgba(187,0,0,1) 0%, rgba(0,93,135,1) 0%, rgba(0,146,193,1) 0%, rgba(19,0,194,1) 50%, rgba(169,0,198,1) 100%, rgba(204,215,0,1) 100%);
+  min-height: 1rem;
+}
+
+#menu-active {
+  background-color: #222;
+}
+
+.robotup-desc-huge{
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 10vmin;
+}
+
+.proj-links {
+  font-size: 1.25rem;
+}
+
+.proj-links a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.proj-links a.active {
+  pointer-events: none;
+  background-color: white;
+  color: black;
+  border: 0px solid;
+  border-radius: 5px;
+}
+</style>
+
+</body>
+</html>
